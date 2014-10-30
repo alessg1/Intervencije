@@ -68,7 +68,6 @@ public class MainActivity extends ActionBarActivity implements ActionBar.TabList
 
     public SmsDataSource smsDataSource;
 
-
     private Object mActionMode;
 
 
