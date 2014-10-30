@@ -38,4 +38,8 @@ build
 *.iws
 *.ipr
 *~
+<<<<<<< HEAD
 *.swp
+=======
+*.swp
+>>>>>>> 0aed2ae54b3c7174cef54bb8de6a050c7cd75f9b
