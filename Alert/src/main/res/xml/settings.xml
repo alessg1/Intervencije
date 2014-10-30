@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="Nastavitve">
+
+        <EditTextPreference
+            android:key="triger_text"
+            android:title="Sprožilec"
+            android:dialogTitle="Sprožilec"
+            android:defaultValue="@string/default_triger_text" />
+
+        <CheckBoxPreference
+            android:title="Sprožilec po RIC"
+            android:defaultValue="false"
+            android:key="checkboxRICtriger" />
+
+        <EditTextPreference
+            android:key="ric1"
+            android:title="RIC 1"
+            android:dialogTitle="Sprožilec"
+            android:defaultValue=""
+            android:inputType="number"
+            android:dependency="checkboxRICtriger" />
+
+        <EditTextPreference
+            android:key="ric2"
+            android:title="RIC 2"
+            android:dialogTitle="Sprožilec"
+            android:defaultValue=""
+            android:inputType="number"
+            android:dependency="checkboxRICtriger" />
+
+        <EditTextPreference
+            android:key="ric3"
+            android:title="RIC 3"
+            android:dialogTitle="Sprožilec"
+            android:defaultValue=""
+            android:inputType="number"
+            android:dependency="checkboxRICtriger" />
+
+        <EditTextPreference
+            android:key="ric4"
+            android:title="RIC 4"
+            android:dialogTitle="Sprožilec"
+            android:defaultValue=""
+            android:inputType="number"
+            android:dependency="checkboxRICtriger" />
+
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Intervencijska lista">
+
+        <EditTextPreference
+            android:key="intervencijska_lista"
+            android:title="Naslov intervencijske liste"
+            android:dialogTitle="Naslov intervencijske liste"
+            android:defaultValue="@string/default_intervencijska_lista" />
+
+        <EditTextPreference
+            android:defaultValue="@string/alarm_yes_number"
+            android:key="alarm_yes"
+            android:title="Alarm DA"
+            android:inputType="number" />
+
+        <EditTextPreference
+            android:defaultValue="@string/alarm_no_number"
+            android:key="alarm_no"
+            android:title="Alarm NE"
+            android:inputType="number" />
+
+        <EditTextPreference
+            android:defaultValue="@string/alarm_later_number"
+            android:key="alarm_later"
+            android:title="Alarm KASNEJE"
+            android:inputType="number" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Opozorila">
+
+        <CheckBoxPreference
+            android:title="Zvoni če tiho"
+            android:defaultValue="true"
+            android:key="checkboxRingIFsilent" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

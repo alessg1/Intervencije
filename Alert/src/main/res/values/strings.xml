@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Intervencije.net</string>
+    <string name="tab1">Sporočila</string>
+    <string name="tab2">Zelena</string>
+    <string name="tab3">Rdeča</string>
+    <string name="action_settings">Nastavitve</string>
+    <string name="action_refresh">refresh</string>
+    <string name="default_intervencijska_lista">https://www.intervencije.net/il.aspx?GroupId=</string>
+    <string name="default_triger_text">ReCO-112</string>
+    <string name="alarm_yes_number">059074870</string>
+    <string name="alarm_no_number">059074879</string>
+    <string name="alarm_later_number">059074874</string>
+
+    <!--List messages-->
+    <string name="alarm_list_empty">Intervencijska lista je prazna!</string>
+    <string name="alarm_list_error">Napaka pri vzpostavitvi povezave!</string>
+    <string name="alarm_list_no_connection">Ni povezave z internetom!</string>
+    <string name="alarm_list_setting_problems">Intervencijska lista ni nastavljena!</string>
+    <string name="alarm_list_verify_string">https://www.intervencije.net/il.aspx?GroupId=</string>
+
+</resources>
